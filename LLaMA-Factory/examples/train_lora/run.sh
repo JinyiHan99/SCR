@@ -1,0 +1,1 @@
+screen -L -Logfile /mnt/bn/hjy/Correct-Reasoning/logs/1014/standard-cot-lora.log CUDA_VISIBLE_DEVICES=0,1,2,3 bash examples/train_lora/hjy_sft_lora.sh
