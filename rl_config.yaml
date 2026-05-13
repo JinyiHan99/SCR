@@ -1,6 +1,6 @@
 data:
   train_files: BytedTsinghua-SIA/DAPO-Math-17k
-  val_files: /mnt/bn/dzx-hl/hanjinyi/public/SCR/data/test_data/math.jsonl
+  val_files: /data/test_data/math.jsonl
   prompt_key: question
   answer_key: std
   image_key: images
