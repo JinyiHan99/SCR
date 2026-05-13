@@ -108,8 +108,8 @@ bash infer.sh
 
 This repository includes code adapted from the following open-source projects:
 
-- **LLaMA-Factory**: GitHub - hiyouga/LlamaFactory: Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)
-- **EasyR1**: GitHub - hiyouga/EasyR1: EasyR1: An Efficient, Scalable, Multi-Modality RL Training Framework based 
+- **[LLaMA-Factory](https://github.com/hiyouga/LlamaFactory)**: Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)
+- **[EasyR1](https://github.com/hiyouga/easyr1)**: An Efficient, Scalable, Multi-Modality RL Training Framework based 
 
 We thank the authors and contributors of these projects for making their code publicly available.
 
