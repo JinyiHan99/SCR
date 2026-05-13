@@ -100,3 +100,27 @@ bash infer.sh
 ## 📊 Highlights
 
 - ✅ **Explicit reasoning stages.** Each step (generation / verification / revision) is exposed and can be supervised individually.
+- ✅ **Trajectory-aware supervision.** DTS + SLM provide targeted SFT signals that prevent imitation of false starts and over-long verification.
+- ✅ **Decoupled credit assignment.** Two-stage GRPO assigns ability-specific credit instead of a single outcome-level reward.
+- ✅ **Shorter, sharper reasoning.** Up to **50% reduction in output length** without sacrificing accuracy.
+
+## 🎉 Acknowledgements
+
+This repository includes code adapted from the following open-source projects:
+
+- **LLaMA-Factory**: GitHub - hiyouga/LlamaFactory: Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)
+- **EasyR1**: GitHub - hiyouga/EasyR1: EasyR1: An Efficient, Scalable, Multi-Modality RL Training Framework based 
+
+We thank the authors and contributors of these projects for making their code publicly available.
+
+<!-- ## 📌 Citation
+
+If you find this work useful for your research, please consider citing:
+
+```bibtex
+@article{scr2026,
+  title  = {Structured Reasoning for Large Language Models},
+  author = {Anonymous Author(s)},
+  year   = {2026}
+}
+``` -->
