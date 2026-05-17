@@ -25,3 +25,6 @@ venv/
 *.pt
 wandb/
 outputs/
+
+# Upstream project configs (not needed in this repo)
+*/.github/
